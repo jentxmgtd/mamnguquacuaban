@@ -21,35 +21,35 @@ function preload() {
       "/fruits_img/buoi.png",
       "/fruits_img/chuoi.png",
       "/fruits_img/duahau.png",
-      '/fruits_img/nho.png',
-      '/fruits_img/tao.png',
-      '/fruits_img/le.png',
-      '/fruits_img/quyt.png',
+      "/fruits_img/nho.png",
+      "/fruits_img/tao.png",
+      "/fruits_img/le.png",
+      "/fruits_img/quyt.png",
     ],
     [
-      '/fruits_img/chuoi.png',
-      '/fruits_img/duahau.png',
-      '/fruits_img/mangcau.png',
-      '/fruits_img/dua1.png',
-      '/fruits_img/thanhlong.png',
-      '/fruits_img/quyt.png',
+      "/fruits_img/chuoi.png",
+      "/fruits_img/duahau.png",
+      "/fruits_img/mangcau.png",
+      "/fruits_img/dua1.png",
+      "/fruits_img/thanhlong.png",
+      "/fruits_img/quyt.png",
     ],
     [
-      '/fruits_img/mangcau.png',
-      '/fruits_img/sung.png',
-      '/fruits_img/dua2.png',
-      '/fruits_img/dudu.png',
-      '/fruits_img/xoai.png',
+      "/fruits_img/mangcau.png",
+      "/fruits_img/sung.png",
+      "/fruits_img/dua2.png",
+      "/fruits_img/dudu.png",
+      "/fruits_img/xoai.png",
     ],
   ];
 
   // Load the images for the current scene
   imgs = fruitPaths[currentScene].map(path => loadImage(path));
-  plate = loadImage('/assets/altar00.jpg');
-  plate02 = loadImage('/assets/altar02.jpg');
-  l_frame = loadImage('/assets/l_frame04.png');
-  l_button = loadImage('/assets/l_button.png');
-  font = loadFont('/assets/03.ttf');
+  plate = loadImage("/assets/altar00.jpg");
+  plate02 = loadImage("/assets/altar02.jpg");
+  l_frame = loadImage("/assets/l_frame04.png");
+  l_button = loadImage("/assets/l_button.png");
+  font = loadFont("/assets/03.ttf");
 }
 
 const fruits = [];
