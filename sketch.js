@@ -18,9 +18,9 @@ let currentPlate = 0; // Track the current plate image
 function preload() {
   const fruitPaths = [
     [
-      '/fruits_img/buoi.png',
-      '/fruits_img/chuoi.png',
-      '/fruits_img/duahau.png',
+      "/fruits_img/buoi.png",
+      "/fruits_img/chuoi.png",
+      "/fruits_img/duahau.png",
       '/fruits_img/nho.png',
       '/fruits_img/tao.png',
       '/fruits_img/le.png',
